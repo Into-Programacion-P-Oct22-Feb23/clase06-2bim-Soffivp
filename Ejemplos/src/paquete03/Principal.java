@@ -20,13 +20,12 @@ public class Principal {
         int valorB = OperadorUno.obtenerNumero(10);
         int suma = OperadorDos.obtenerSuma(valorA, valorB);
         int multiplicacion = OperadorTres.obtenermultiplicacion(valorA, valorB);
+        
         System.out.printf("La suma de %d + %d es igual a: %d\nLa multiplicacion"
                 + "de %d + %d es igual a: %d\n",
-                valorA,
-                valorB,
+                valorA,valorB,
                 suma,
-                valorA,
-                valorB,
+                valorA,valorB,
                 multiplicacion);
     }
 }
