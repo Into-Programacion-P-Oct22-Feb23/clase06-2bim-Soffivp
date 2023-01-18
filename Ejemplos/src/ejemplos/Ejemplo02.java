@@ -22,6 +22,9 @@ public class Ejemplo02 {
 
         System.out.println("Ingrese el limite de numeros a generar");
         limite = entrada.nextInt();
+        if (limite <= 0) {
+            System.out.println("Ingrese un valor mayor a 0");
+        }
         int valorA = obtenerNumero(limite); // 3
         int valorB = obtenerNumero(limite); // 2
         int suma = obtnerSuma(valorA, valorB);
